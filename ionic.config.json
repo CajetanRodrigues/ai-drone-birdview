@@ -1,0 +1,7 @@
+{
+  "name": "birdview",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
