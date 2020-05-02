@@ -4,7 +4,7 @@
             <ion-menu-button></ion-menu-button>
         </ion-buttons>
         <ion-title class="global-font">
-            Missions
+            Mission Stats
         </ion-title>
     </ion-toolbar>
 </ion-header>
@@ -33,12 +33,8 @@
         </ion-item>
         <ion-card-content>
 
-            <ion-button (click)="presentModal(mission)" expand="full" slot="end">View Insights</ion-button>
             <ion-button color="secondary" (click)="goToMap(mission._id)" expand="full" slot="end">View on Google Map</ion-button>
 
         </ion-card-content>
     </ion-card>
-    <!-- <ion-card *ngIf="!missions">
-        <img width="100%" height="50%" src="../../assets/gif/404.gif" alt="Description" />
-    </ion-card> -->
 </ion-content>

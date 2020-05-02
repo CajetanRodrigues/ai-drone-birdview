@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.aidroneteam.aidronebirdview" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>AI Drone</name>
-    <description>Shipping and Delivery with Drones</description>
+    <name>Bird View</name>
+    <description>Monitoring Shipping and Delivery with Drones</description>
     <author email="cajetanrodrigues88@gmail.com" href="https://github.com/CajetanRodrigues/aidrone-mobile/tree/master">Trio Team</author>
     <content src="index.html" />
     <access origin="*" />

@@ -3,6 +3,7 @@ import { HttpHeaders, HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { GPS } from './models/GPS';
 import { AppService } from './app.service';
+import { HTTP } from '@ionic-native/http/ngx';
 const httpOptions = {
   headers: new HttpHeaders(
     {
@@ -54,7 +55,7 @@ export class DroneService {
   }
   getDrones() {
     return this.http.get<any>
-      ('http://aidrone-1250389064.ap-south-1.elb.amazonaws.com/getdrones', httpOptions);
+      ('https://aidrone-1250389064.ap-south-1.elb.amazonaws.com/getdrones', httpOptions);
   }
   readCoordinatesByMissionId(missionId: string) {
     return this.http.post<any>

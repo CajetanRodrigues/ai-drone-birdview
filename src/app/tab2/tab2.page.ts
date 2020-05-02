@@ -7,7 +7,7 @@ import { DroneService } from '../drone.service';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page implements OnInit {
-  droneList = [];
+  droneList: any[]  = [];
   constructor(private droneService: DroneService) {}
   ngOnInit() {
     this.droneService.getDrones()
